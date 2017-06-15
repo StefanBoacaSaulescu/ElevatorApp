@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 7, 2017, 8:52:36 PM
+    Author     : marius
+*/
+
+.root {
+    -fx-background-image: url("../../res/img/owl_city.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.config_pane{
+    -fx-background-image: url("../../res/img/rainy_san_francisco.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.menu_button{
+   -fx-background-color:transparent; 
+   -fx-font: bold italic 30pt "Arial";
+   -fx-text-fill: #ffffff;
+   -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+.menu_button:hover{
+    -fx-text-fill: #f0f000;
+    -fx-cursor: hand;
+}
+
+/*-fx-padding: LABEL_PADDING_TOP LABEL_PADDING_RIGHT LABEL_PADDING_BOTTOM LABEL_PADDING_LEFT;*/

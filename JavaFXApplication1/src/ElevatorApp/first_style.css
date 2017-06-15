@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 8, 2017, 12:10:32 AM
+    Author     : marius
+*/
+
+.root {
+    -fx-background-image: url("../../res/img/waterfall.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+.enter_button{
+   -fx-background-color:transparent; 
+   -fx-font: bold italic 30pt "Arial";
+   -fx-text-fill: #ffffff;
+   -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+   -fx-text-alignment: center;
+   -fx-padding: 0 0 50pt 0;
+}
